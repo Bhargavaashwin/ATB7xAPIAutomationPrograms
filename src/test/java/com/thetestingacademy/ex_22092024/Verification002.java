@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex22092024;
+package com.thetestingacademy.ex_22092024;
 
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
