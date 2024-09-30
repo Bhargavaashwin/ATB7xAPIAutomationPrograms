@@ -1,4 +1,4 @@
-package com.thetestingacademy.ex_22092024;
+package com.thetestingacademy.ex_22092024.Verification;
 
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
@@ -22,8 +22,8 @@ public class Verification002 {
     @TmsLink("TMS-456")
     @Test
     public void test_verify_assertj(){
-        String name = "Pramod";
-        assertThat(name).isEqualTo("Pramod").isNotEmpty().isNotNull();
+        String name = "Bhargava";
+        assertThat(name).isEqualTo("Bhargava").isNotEmpty().isNotNull();
 
         List<String> names = Arrays.asList("John", "Jane", "Doe");
         assertThat(names).hasSize(3).isNotNull();
@@ -48,10 +48,6 @@ public class Verification002 {
         ages.put("Jane", 30);
 
         assertThat(ages).hasSize(2).containsEntry("John",25).doesNotContainValue(40);
-
-
-
-
 
     }
 }
